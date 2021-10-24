@@ -11,6 +11,6 @@
     height: 660px;
 }
 
-.place:nth-child(n+1) {
+.place:nth-child(n+2) {
     margin-top: 80px;
 }
