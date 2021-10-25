@@ -2,3 +2,22 @@
     max-width: 690px;
     color: #ffffff;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__container {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .intro__container {
+        max-width: 100%;
+    }
+}
