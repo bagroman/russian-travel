@@ -7,6 +7,8 @@
     margin: 92px auto 0 auto;
     color: #ffffff;
     position: relative;
+    box-sizing: border-box;
+    padding-top: 245px;
 }
 
 .cover::before {
@@ -18,4 +20,35 @@
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        padding-top: 195px;
+    }
+}
+
+@media screen and (max-width: 1184px) {
+    .cover {
+        width: 100vw;
+        height: 62.5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-top: 115px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-top: 66px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cover {
+        padding-top: 33px;
+    }
 }
