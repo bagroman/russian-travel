@@ -20,6 +20,11 @@
     left: 0;
     bottom: 0;
     right: 0;
+    transition: opacity 0.3s;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1280px) {

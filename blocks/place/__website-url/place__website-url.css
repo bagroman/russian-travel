@@ -1,0 +1,8 @@
+.place__website-url {
+    color: #ffffff;
+    transition: opacity 0.3s;
+}
+
+.place__website-url:hover {
+    opacity: 0.8;
+}
