@@ -2,13 +2,7 @@
     grid-area: place__paragraphs;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraphs {
-        margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__paragraphs {
         margin-left: 16px;
         margin-right: 16px;

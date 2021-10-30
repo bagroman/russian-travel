@@ -3,13 +3,13 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .intro__container {
         margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .intro__container {
         margin-left: 16px;
         margin-right: 16px;

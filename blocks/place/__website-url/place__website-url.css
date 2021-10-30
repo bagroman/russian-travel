@@ -1,5 +1,9 @@
 .place__website-url {
     color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
     transition: opacity 0.3s;
 }
 
