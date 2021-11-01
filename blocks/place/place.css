@@ -43,6 +43,7 @@
         "place__paragraphs";
         margin-left: 0;
         margin-right: 0;
+        row-gap: 32px;
     }
     .place:nth-child(n+2) {
         margin-top: 50px;
